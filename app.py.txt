@@ -1,0 +1,13 @@
+import streamlit as st
+
+# Interface para o colega
+st.title("Piada do Computador 🤣")
+
+nome = st.text_input("Qual é o seu nome?")
+if nome:
+    st.write(f"Oi, {nome}! Preparado para o desafio?")
+
+    resposta = st.text_input("Por que o computador foi ao médico?")
+    if resposta:
+        st.write("Porque ele pegou um vírus! 😂")
+        st.write(f"Essa foi boa, né {nome}? Agora é sua vez de contar uma piada!")
