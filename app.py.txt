@@ -1,3 +1,5 @@
+import streamlit as st
+
 # Interface para o colega
 st.title("Piada do Computador 🤣")
 
@@ -9,3 +11,4 @@ if nome:
     if resposta:
         st.write("Porque ele pegou um vírus! 😂")
         st.write(f"Essa foi boa, né {nome}? Agora é sua vez de contar uma piada!")
+
